@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+<div align="center">
+<h1>Map App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="html">
+<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="tailwindCSS">
+<img src ="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="reactjs">
+<img src ="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="vite">
+<img src ="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="typscript">
 
-Currently, two official plugins are available:
+<img src="./src/assets/map-app.gif">
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 <a name="table">Table of Contents</a>
 
-## Expanding the ESLint configuration
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Link to Page](#link-page)
+4. 🛠️ [Improvements Ideas](#improvements)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## <a name="introduction">🤖 Introduction</a>
 
-- Configure the top-level `parserOptions` property like this:
+The challenge was to create a clone of the Google Maps app, enabling users to search for up to 5 places by name and navigate to them.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+The app was developed using React.js with Vite, and TypeScript was utilized for development. Tailwind CSS was incorporated for the app's styling.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- HTML
+- Tailwind CSS
+- ReactJS
+- Vite
+- TypeScript
+
+## <a name="link-page">🔋 Link to Page</a>
+
+- Live Site URL: [GitHub Page](https://mirkozlatunic.github.io/map-app/)
+
+## <a name="improvements">🛠️ Improvements Ideas</a>
